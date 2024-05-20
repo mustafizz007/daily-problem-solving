@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    while (t--)
+    {
+        string a;
+        cin>>a;
+        if (a == "bca" || a== "cab") cout<<"NO"<<endl;
+        else cout<<"YES"<<endl;
+    }
+}
